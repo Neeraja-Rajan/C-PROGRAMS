@@ -13,6 +13,9 @@
         //user input 2
         cin>>exp;
         //calculating power using function
-        
+        double res = pow(base, exp);
+        //printing result
+        cout << base << “^” << exp << ” = “ ;
+        cout << fixed <<setprecision(2)<<res<<endl;
         return 0;
     }
