@@ -8,7 +8,12 @@
         //user input
         cin >> num;
         cout << “Factors of “ << num << ” are: “ << endl;  
-        //finding and printing factors
+        //finding and printing factor
+        for(int i = 1; i <= num; i++)
+        {
+            if(num % i == 0)
+            cout << i << “\t“;
+        }
      
         return 0;
     }
